@@ -1,0 +1,60 @@
+{
+    "name": "@bardoui/vhistory",
+    "version": "1.0.0",
+    "private": false,
+    "description": "Track history for Vue 3 (Vue router 4)",
+    "license": "ISC",
+    "main": "dist/vhistory.cjs.js",
+    "module": "dist/vhistory.esm.js",
+    "unpkg": "dist/vhistory.global.js",
+    "typings": "dist/vhistory.d.ts",
+    "scripts": {
+        "serve": "vue-cli-service serve demo/main.ts",
+        "build": "rollup -c",
+        "prepare": "npm run build"
+    },
+    "files": [
+        "dist"
+    ],
+    "keywords": [
+        "vue3",
+        "route history",
+        "redirect"
+    ],
+    "authors": [
+        {
+            "email": "m.ajamekramy@gmail.com",
+            "homepage": "http://ekramy.ir",
+            "name": "Mojtaba Ekramy",
+            "role": "Developer"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/bardoui/vhistory"
+    },
+    "dependencies": {
+        "core-js": "^3.6.5",
+        "vue": "^3.0.11",
+        "vue-router": "^4.0.6"
+    },
+    "devDependencies": {
+        "@rollup/plugin-commonjs": "^18.0.0",
+        "@typescript-eslint/eslint-plugin": "^4.18.0",
+        "@typescript-eslint/parser": "^4.18.0",
+        "@vue/cli-plugin-babel": "~4.5.0",
+        "@vue/cli-plugin-eslint": "~4.5.0",
+        "@vue/cli-plugin-router": "~4.5.0",
+        "@vue/cli-plugin-typescript": "~4.5.0",
+        "@vue/cli-service": "~4.5.0",
+        "@vue/compiler-sfc": "^3.0.0",
+        "@vue/eslint-config-typescript": "^7.0.0",
+        "eslint": "^6.7.2",
+        "eslint-plugin-vue": "^7.0.0",
+        "rollup": "^2.45.2",
+        "rollup-plugin-cleaner": "^1.0.0",
+        "rollup-plugin-typescript2": "^0.30.0",
+        "rollup-plugin-vue": "^6.0.0",
+        "typescript": "^4.2.4"
+    }
+}
