@@ -1,6 +1,6 @@
 {
     "name": "@bardoui/vhistory",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "private": false,
     "description": "Track history for Vue 3 (Vue router 4)",
     "license": "ISC",
